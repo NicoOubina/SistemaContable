@@ -1,0 +1,26 @@
+.root {
+    -fx-font-family: "Segoe UI", "Sans-Serif";
+    -fx-padding: 20;
+}
+
+.label.titulo {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #0d6efd;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #0b5ed7;
+}
+
+.label.mensaje-ok {
+    -fx-text-fill: #198754;
+}
+
+.label.mensaje-error {
+    -fx-text-fill: #dc3545;
+}
