@@ -1,4 +1,4 @@
-package com.SIstemaContable.facturador;
+package com.SistemaContable.facturador;
 
 import javafx.application.Application;
 import javafx.application.Platform;

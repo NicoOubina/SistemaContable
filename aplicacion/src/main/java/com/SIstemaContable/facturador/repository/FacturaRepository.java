@@ -1,6 +1,6 @@
-package com.SIstemaContable.facturador.repository;
+package com.SistemaContable.facturador.repository;
 
-import com.SIstemaContable.facturador.entity.Factura;
+import com.SistemaContable.facturador.entity.Factura;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface FacturaRepository extends JpaRepository<Factura, Long> {

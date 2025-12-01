@@ -1,4 +1,4 @@
-package com.SIstemaContable.facturador.dto;
+package com.SistemaContable.facturador.dto;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

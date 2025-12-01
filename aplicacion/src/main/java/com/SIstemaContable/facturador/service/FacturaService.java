@@ -1,9 +1,9 @@
-package com.SIstemaContable.facturador.service;
+package com.SistemaContable.facturador.service;
 
-import com.SIstemaContable.facturador.dto.FacturaDTO;
-import com.SIstemaContable.facturador.entity.Factura;
-import com.SIstemaContable.facturador.mapper.FacturaMapper;
-import com.SIstemaContable.facturador.repository.FacturaRepository;
+import com.SistemaContable.facturador.dto.FacturaDTO;
+import com.SistemaContable.facturador.entity.Factura;
+import com.SistemaContable.facturador.mapper.FacturaMapper;
+import com.SistemaContable.facturador.repository.FacturaRepository;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;

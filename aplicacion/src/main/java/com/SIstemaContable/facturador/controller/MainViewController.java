@@ -1,7 +1,7 @@
-package com.SIstemaContable.facturador.controller;
+package com.SistemaContable.facturador.controller;
 
-import com.SIstemaContable.facturador.dto.FacturaDTO;
-import com.SIstemaContable.facturador.service.FacturaService;
+import com.SistemaContable.facturador.dto.FacturaDTO;
+import com.SistemaContable.facturador.service.FacturaService;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Objects;

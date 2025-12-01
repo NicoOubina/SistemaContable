@@ -1,7 +1,7 @@
-package com.SIstemaContable.facturador.mapper;
+package com.SistemaContable.facturador.mapper;
 
-import com.SIstemaContable.facturador.dto.FacturaDTO;
-import com.SIstemaContable.facturador.entity.Factura;
+import com.SistemaContable.facturador.dto.FacturaDTO;
+import com.SistemaContable.facturador.entity.Factura;
 import org.springframework.stereotype.Component;
 
 @Component
