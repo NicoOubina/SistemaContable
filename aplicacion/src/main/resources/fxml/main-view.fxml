@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.SIstemaContable.facturador.controller.MainViewController"
+      spacing="10" padding="15">
+    <Label text="Gestor de Facturas" styleClass="titulo"/>
+    <GridPane hgap="10" vgap="10">
+        <columnConstraints>
+            <ColumnConstraints halignment="RIGHT" minWidth="120" />
+            <ColumnConstraints hgrow="ALWAYS" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="30" />
+        </rowConstraints>
+        <Label text="Número" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="numeroField" GridPane.rowIndex="0" GridPane.columnIndex="1" promptText="0001-00000001" />
+
+        <Label text="Cliente" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <TextField fx:id="clienteField" GridPane.rowIndex="1" GridPane.columnIndex="1" promptText="Nombre del cliente" />
+
+        <Label text="Fecha" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+        <DatePicker fx:id="fechaPicker" GridPane.rowIndex="2" GridPane.columnIndex="1" />
+
+        <Label text="Total" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+        <TextField fx:id="totalField" GridPane.rowIndex="3" GridPane.columnIndex="1" promptText="0.00" />
+    </GridPane>
+
+    <HBox spacing="10">
+        <Button fx:id="guardarButton" text="Guardar" onAction="#guardarFactura" />
+        <Label fx:id="mensajeLabel" textFill="GRAY" />
+    </HBox>
+
+    <TableView fx:id="tablaFacturas" prefHeight="400">
+        <columns>
+            <TableColumn fx:id="numeroColumna" text="Número" prefWidth="150" />
+            <TableColumn fx:id="clienteColumna" text="Cliente" prefWidth="200" />
+            <TableColumn fx:id="fechaColumna" text="Fecha" prefWidth="150" />
+            <TableColumn fx:id="totalColumna" text="Total" prefWidth="120" />
+        </columns>
+    </TableView>
+</VBox>
